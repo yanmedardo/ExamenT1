@@ -6,7 +6,7 @@ namespace ExamenT1
 {
     public class PokerGame
     {
-        public List<PlayerGame> players = new List<PlayerGame>;   
+        public List<PlayerGame> players = new List<PlayerGame>();   
         public void AddPlayer (PlayerGame  playerGame)
         {
 

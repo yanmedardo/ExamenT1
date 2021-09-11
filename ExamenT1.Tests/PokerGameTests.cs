@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ExamenT1.Tests
 {
-    class PokerGameTests
+    class PokerGameTest
     {
     
         [Test]
@@ -101,10 +101,107 @@ namespace ExamenT1.Tests
             Game.AddPlayer(new PlayerGame { Name = "Player 2" });
 
             Game.Dealcards();
+            var Player = Game.players.ElementAt(0); 
+            Assert.AreEqual(5, Player.Cards.Count);
+        
+           }
+
+        [Test]
+        public void Case008()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
             var Player = Game.players.ElementAt(0);
             Assert.AreEqual(5, Player.Cards.Count);
-       
-           }
+
+        }
+        [Test]
+        public void Case009()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+                   Assert.AreEqual(5, Player.Cards.Count);
+            Assert.AreEqual("Trebol", Player.Cards.ElementAt(0));
+          
+
+        }
+        public void Case0010()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+         
+            Assert.AreEqual("Rombo", Player.Cards.ElementAt(0));
+
+        }
+        public void Case0011    ()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+
+            Assert.AreEqual("Picas", Player.Cards.ElementAt(0));
+
+        }
+        public void Case0012()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+
+            Assert.AreEqual("Corazones ", Player.Cards.ElementAt(0));
+
+        }
+
+        public void Case0013()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+
+            Assert.AreEqual("Corazones ", Player.Cards.ElementAt(0));
+            Assert.AreEqual("Picas ", Player.Cards.ElementAt(1));
+
+        }
+        public void Case0014()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+
+            Assert.AreEqual("Treboles ", Player.Cards.ElementAt(0));
+            Assert.AreEqual("Picas ", Player.Cards.ElementAt(1));
+
+        }
+
+
 
 
 

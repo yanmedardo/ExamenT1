@@ -2,3 +2,12 @@ E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.csproj.As
 E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.AssemblyInfoInputs.cache
 E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.AssemblyInfo.cs
 E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.csproj.CoreCompileInputs.cache
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.exe
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.deps.json
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.runtimeconfig.json
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.runtimeconfig.dev.json
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.dll
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\bin\Debug\netcoreapp3.1\ExamenT1.pdb
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.dll
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.pdb
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1\obj\Debug\netcoreapp3.1\ExamenT1.genruntimeconfig.cache
