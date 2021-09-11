@@ -4,7 +4,19 @@ using System.Text;
 
 namespace ExamenT1
 {
-    class PokerGame
+    public class PokerGame
     {
+        public List<PlayerGame> players = new List<PlayerGame>;   
+        public void AddPlayer (PlayerGame  playerGame)
+        {
+
+            players.Add(playerGame);
+
+        }
+        public void PlayeGame()
+        {
+
+        }
     }
+    
 }

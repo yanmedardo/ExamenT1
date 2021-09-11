@@ -4,7 +4,10 @@ using System.Text;
 
 namespace ExamenT1
 {
-    class CardsGame
+   public class CardsGame
     {
+
+
+
     }
 }
