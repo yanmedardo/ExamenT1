@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ExamenT1.Tests
+namespace ExamenT1
 {
-    class Poker
+    class CardsGame
     {
     }
 }
