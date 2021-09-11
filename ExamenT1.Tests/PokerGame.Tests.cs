@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 
@@ -91,6 +92,22 @@ namespace ExamenT1.Tests
             Assert.Throws(typeof(Exception), () => Game.PlayeGame());
             Game.Dealcards();
         }
+        
+        [Test]
+        public void Case008()
+        {
+            var Game = new PokerGame();
+            Game.AddPlayer(new PlayerGame { Name = "Player 1" });
+            Game.AddPlayer(new PlayerGame { Name = "Player 2" });
+
+            Game.Dealcards();
+            var Player = Game.players.ElementAt(0);
+            Assert.AreEqual(5, Player.Cards.Count);
+       
+           }
+
+
+
 
 
     }
