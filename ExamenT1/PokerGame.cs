@@ -17,6 +17,13 @@ namespace ExamenT1
         {
 
         }
+        public void Dealcards()
+        {
+            foreach (var Player in players)
+            {
+                Player.Dealcards();
+            }
+        }
     }
     
 }

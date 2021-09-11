@@ -1,0 +1,4 @@
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1.Tests\obj\Debug\netcoreapp3.1\ExamenT1.Tests.csproj.AssemblyReference.cache
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1.Tests\obj\Debug\netcoreapp3.1\ExamenT1.Tests.AssemblyInfoInputs.cache
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1.Tests\obj\Debug\netcoreapp3.1\ExamenT1.Tests.AssemblyInfo.cs
+E:\CALIDAD\SEMANA 4\ExamenT1\ExamenT1.Tests\obj\Debug\netcoreapp3.1\ExamenT1.Tests.csproj.CoreCompileInputs.cache
